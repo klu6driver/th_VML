@@ -1,0 +1,17 @@
+#VML_hermetic_art 名字再想想,七曜结社
+VML_Hermetic_Art = {
+    color = {192 32 192}
+    #icon = 40
+    allow_female_defenders_of_the_faith = yes
+
+    allowed_center_conversion = {}
+    country={
+
+    }
+    country_as_secondary = {
+
+    }
+    uses_judaism_power = yes
+    heretic ={}
+    misguided_heretic = yes
+}

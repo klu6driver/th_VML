@@ -1,0 +1,801 @@
+graphical_culture = westerngfx
+		
+color = { 160  60  160 }
+revolutionary_colors = { 4  0  4 }
+
+random_nation_chance = 0
+
+historical_score = 500
+
+historical_idea_groups = {
+  quality_ideas
+  economic_ideas
+	offensive_ideas
+  administrative_ideas
+	religious_ideas
+	quantity_ideas
+	aristocracy_ideas
+	influence_ideas
+}
+
+historical_units = {
+	infantry_gen_t1_03
+	cavalry_gen_t1_01
+	infantry_gen_t5_02
+	cavalry_gen_t6_02
+	infantry_gen_t9_01
+	cavalry_gen_t10_01
+	infantry_gen_t12_01
+	cavalry_gen_t14_01
+	cavalry_gen_t17_01
+	infantry_gen_t19_01
+	cavalry_gen_t23_01
+	infantry_gen_t26_01
+	cavalry_gen_t28_02
+}
+
+monarch_names = {
+  "�`<S #0" = 0  # Sydney #0
+  "(�*S #0" = 0  # Samuel #0
+  "eY)RV #0" = 0  # Oliver #0
+  "<Sk�ȏ�N #0" = 0  # Nehemiah #0
+  "l��O #0" = 0  # Matthew #0
+  "�R&O�e #0" = 0  # Lawrence #0
+  "�umt+Y #0" = 0  # Joseph #0
+  "TN�u�h #0" = 0  # Jonathan #0
+  "pg̑s| #0" = 0  # Jeremy #0
+  "��(�KQ #0" = 0  # Isaac #0
+  "O #0" = 0  # Hugh #0
+  "��b�w #0" = 0  # Horatio #0
+  "�vO #0" = 0  # Guy #0
+  "pgV̑ #0" = 0  # Geoffrey #0
+  "Vg��e #0" = 0  # Francis #0
+  "'k�Q�eyr #0" = 0  # Ernest #0
+  "4b�u #0" = 0  # David #0
+  "9N<SS #0" = 0  # Daniel #0
+  "KQ̑�eXbV #0" = 0  # Christopher #0
+  ",gpgf #0" = 0  # Benjamin #0
+  "?�GYZSS�V #0" = 0  # Archibald #0
+  "�RN<S #0" = 0  # Anthony #0
+  "�R�V�� #0" = 0  # Andrew #0
+  "�R^W�e #0" = 0  # Ambrose #0
+  "?�SV���V #0" = 0  # Alfred #0
+  "?�S� #0" = 0  # Albert #0
+  "�N�SqS'Y #0" = 0  # Alexander #0
+  "�NSV #0" = 0  # Adam #0
+  "�e���� #1" = 1  # Stephen #1
+  "W=Oyr #0" = 0  # Robert #0
+  "IlV�� #0" = 0  # Humphrey #0
+  "ŖT^ #0" = 0  # Jacob #0
+  "�u� #1" = 1  # John #1
+  "TN�l #0" = 5  # George #0
+  "�W�V�� #0" = 5  # Edmund #0
+  "Xbl��e #0" = 10  # Thomas #0
+  "�W�V�R #0" = 10  # Edgar #0
+  "�gS�e #0 y��Y�e" = 10  # Charles #0 James
+  "�Nmt #0" = 10  # Arthur #0
+  "�N)R #3 V���V̑KQ" = 10  # Henry #3 Frederick
+  "�)Rnf #0" = 20  # Philip #0
+  "t�g�V #2" = 20  # Richard #2
+  "Z�^ #2" = 20  # William #2
+  "y��Y�e #0" = 20  # James #0
+  "�gS�e #0" = 20  # Charles #0
+  "1r�VNS #3" = 20  # Edward #3
+  "�N)R #3" = 20  # Henry #3
+  "�eY #0" = 0  # Dio #0
+    
+  "�sKN #0" = -20  # Mary #0
+  "�R�Y #0" = -10  # Anne #0
+  "OKN���v #0" = -10  # Elizabeth #0
+  "�r #0" = -10  # Jane #0
+  "�s<hKNyr #0" = -1  # Margaret #0
+  "-�Ŗ #0" = -10  # Tanya #0
+  "��pQ5g2� #0" = -10  # Flandre #0
+  "��s|���N #0" = -10  # Remilia #0
+  "�W3tZ #0" = -10  # Erina #0
+  "^�y�� #0" = -5  # Patchouli #0
+}
+
+leader_names = {
+  "?�S�kl�S"  # Albemarle
+  "?�؞�eyr"  # Amherst
+  "�R�h"  # Anson
+  "�vёIl"  # Buckingham
+  "^�bYKQ"  # Braddock
+  "�b&O"  # Byron
+  "=Ob�V"  # Burgoyne
+  "����e�y�V"  # Beresford
+  "^WKQ"  # Brock
+  ",gZS"  # Benbow
+  "^��KQ"  # Blake
+  "��V�y�V"  # Bedford
+  "ZS�e�yi`"  # Boscawen
+  "�T��"  # Baffin
+  "�T�"  # Button
+  "KQ�b&O�e"  # Clarence
+  "�V KQ)R�y�V"  # de Clifford
+  "KQ&OZS"  # Cromwell
+  "NW=OpQ"  # Cumberland
+  "KQ�g�"  # Clinton
+  "�^�l)R�e"  # Cornwallis
+  "KQ��+Y"  # Clive
+  "aS=Oyr"  # Cabot
+  "aSS�"  # Carleton
+  "aS�e��N"  # Cavendish
+  "�^KQ"  # Cook
+  "9N�vS"  # Dampier
+  "4b�u�e"  # Davis
+  "�V��KQ"  # Drake
+  "�W^XKQ�e"  # Essex
+  "9�S�lKQ�e"  # Fairfax
+  "VW�k�"  # Frobisher
+  "<hm�eyr"  # Gloucester
+  "	TS=Oyr"  # Gilbert
+  "j�"  # Howe
+  "�NS�V"  # Howard
+  "k�=Oyr"  # Herbert
+  "�KQ"  # Hawke
+  "�w�V"  # Hood
+  "ў�e�^�e"  # Hastings
+  "k��V�h"  # Hudson
+  "���eyr"  # Leicester
+  "l�S=O�R"  # Marlborough
+  "s|�VS�"  # Middleton
+  "FzS"  # Moore
+  "���h=OpQ"  # Northumberland
+  "���yKQ"  # Norfolk
+  "nfWKQyr"  # Procter
+  "��KQ"  # Rooke
+  "W�V<S"  # Rodney
+  "W)R"  # Raleigh
+  "0tSyQ=O̑"  # Salisbury
+  "(�؞^Xyr"  # Somerset
+  "(��yKQ"  # Suffolk
+  "Qh�V�e"  # Saunders
+  "�S�R�e"  # Smith
+  "TXSZSyr"  # Talbot
+  "TXS�"  # Tarleton
+  "?�KQ�e^̑GY"  # Uxbridge
+  "�l̑KQ"  # Warwick
+  "�lS+Y"  # Wolfe
+  "�uKQ"  # York
+  "bV��"  # Godfrey
+  "ё�e)R"  # Kingslay
+  "TN�e��"  # Joestar
+  "^pQ�^"  # Brando
+}
+
+ship_names = {
+  "?��k�<S�N"  # Abyssinia
+  "?��U	t�e"  # Achilles
+  "ZW�Q"  # Adamant
+  "O��"  # Advantage
+  "�Qi�"  # Adventure
+  "�VJT"  # Advice
+  "?�^�)R�R"  # Africa
+  "?�KO��Q"  # Agamemnon
+  "?��R�e"  # Agase
+  "?�ё�^S"  # Agincourt
+  "���V"  # Aid
+  "?�>�KQ�e"  # Ajax
+  "?�S=Ol�S"  # Albemarle
+  "?�S�kf"  # Albion
+  "?�S��V"  # Alcide
+  "?�S�V^��"  # Aldborough
+  "�N�SqS'Y"  # Alexander
+  "�N�SqS'Y̑�N"  # Alexandria
+  "?�SV���V"  # Alfred
+  "�2m"  # America
+  "?�s|��"  # Amity
+  "�R�V��"  # Andrew
+  "�R<hS�"  # Anglesea
+  "�R�Y"  # Anne
+  "�R�Y �RpQyr"  # Anne Gallant
+  "�R�h"  # Anson
+  "TrY"  # Answer
+  "��"  # Antelope
+  "�p�V"  # Ardent
+  "�mёw"  # Argonaut
+  "?��vS"  # Argyll
+  "�v�R�e�"  # Ark Royal
+  "b0�"  # Armada
+  "�Pba"  # Arrogant
+  "?��c�T"  # Artigo
+  "�N�u�N"  # Asia
+  "�c�R"  # Assistance
+  "OSO"  # Association
+  "�O��"  # Assurance
+  "��V"  # Atlas
+  "�w'Y"  # Audacious
+  "kQg"  # August
+  "eY�S�eTX"  # Augusta
+  "<h�gZ�l�v�����b"  # Barbara of Greenwich
+  "�TS+Y�R"  # Barfleur
+  "�T�R�Y"  # Barham
+  "^&Oh�v"  # Bark of Bullen
+  "�����eh�v"  # Bark of Murless
+  "9h�W"  # Basing
+  "�q"  # Bear
+  "wm�r"  # Beaver
+  "��V�y�V"  # Bedford
+  "���S"  # Belleisle
+  "^��^tΘ"  # Bellerophon
+  "�Yb"  # Belliqueux
+  "b�NsY^y"  # Bellona
+  ",gZS"  # Benbow
+  "=O�uKQ"  # Berwick
+  "�b�V�y�V"  # Bideford
+  "ўh�v"  # Black Bark
+  "ўir"  # Black Bull
+  "ў�r"  # Black Dog
+  "ў^"  # Black Galley
+  "ў�"  # Black Pinnace
+  "ў�sPR"  # Black Prince
+  "ўr��r0k"  # Black Rave
+  "ў�pp�"  # Black Spread Eagle
+  "^��KQidSsY�X"  # Blackamoor Lady
+  "^��KQ�lS"  # Blackwall
+  "^��KQ"  # Blake
+  "^&Owm�Y"  # Blenheim
+  "ZS�u�e�VS"  # Bonaventure
+  "ZS̑�e"  # Boreas
+  "����"  # Bounty
+  "ZSOi`"  # Boyne
+  "^�b�V�y�V"  # Bradford
+  "^����"  # Breda
+  "^̑GY�lyr"  # Bridgewater
+  "^̑u�^"  # Brigantine
+  "^̑�eXb"  # Bristol
+  "NR��<S�N"  # Britannia
+  "^&O^tKQ"  # Brunswick
+  "�vёIl"  # Buckingham
+  "lQir"  # Bull
+  "ZW�v"  # Bulwark
+  "=O�y�V"  # Burford
+  "=Oup�"  # Burlington
+  "�Q�d"  # Caesar
+  "�U̑Y<S�N"  # Caledonia
+  "QReh"  # Cambridge
+  "�R�b'Y"  # Canada
+  "NWyr=O��"  # Canterbury
+  "9��"  # Captain
+  "�R�v+Y"  # Cardiff
+  "aS��S"  # Carlisle
+  "O���vaS�uS"  # Carvel of Eve
+  "aS�eXb3w"  # Castor
+  "aSXb"  # Cato
+  "aS�e��N"  # Cavendish
+  "�v+Y�"  # Centurion
+  "0W�r�r"  # Cerberus
+  "�gS�e"  # Charles
+  "�gS�e�R)R"  # Charles Galley
+  "�gt V"  # Charles V
+  "�gTX�Y"  # Chatham
+  "R�eyr"  # Chester
+  "GYR�eyr"  # Chichester
+  "�Wcw"  # Christ
+  "KQ̑�eXbV"  # Christopher
+  "KQ̑�eXbV^̑�Y"  # Christopher of Bream
+  "KQ̑�eXbV�e>mi`"  # Christopher Spayne
+  "KQ�b&O�e"  # Clarence
+  "N��h"  # Clove Tree
+  "�ySR�eyr"  # Colchester
+  "�y�gO�V"  # Collingwood
+  "�T�N"  # Colossus
+  "�Vgw"  # Conqueror
+  "�Vgw"  # Conquestador
+  "�^�efWyr9ei�"  # Constant Reformation
+  "�^�efWyr�tS�uKQ"  # Constant Warwick
+  "�^fWyr"  # Content
+  "�^�l�^"  # Convertine
+  "�y<S)RLN�e"  # Cornelius
+  "�^�lS"  # Cornwall
+  "xQ<y"  # Coronation
+  "�Rbe"  # Courageux
+  "w�e�W"  # Coventry
+  "�^�lNl"  # Covertine
+  "�Nd�"  # Crane
+  "KQ���"  # Cressy
+  "Ĝ|�"  # Crocodile
+  "�s�Q"  # Crown
+  "�Q�r"  # Crowned Lion
+  "aSm�v"  # Culloden
+  "NW=OpQ"  # Cumberland
+  "�u�T"  # Dainty
+  "ϖʃ"  # Daisy
+  "��yr؞�e"  # Dartmouth
+  "f�W"  # Deal Castle
+  "�"  # Dee
+  "2��V"  # Defence
+  "cb"  # Defiance
+  "�Vnfyr�y�V"  # Deptford
+  "�kmp"  # Devastation
+  "�V�e�"  # Devonshire
+  "�V�e�"  # Devonshire
+  "�s�Q"  # Diadem
+  "���w"  # Diamond
+  "�rY"  # Dido
+  "�eYs|�V"  # Diomede
+  "c�R"  # Director
+  "wmZ�"  # Dolphin
+  "Y^Xyr�"  # Dorsetshire
+  "YiOS"  # Dover
+  "�T��"  # Dragon
+  "�V��KQ"  # Drake
+  "�eOu"  # Dreadnaught
+  "�V��O"  # Druid
+  "���g�g"  # Dublin
+  "sYlQ5r"  # Duchess
+  "��"  # Due Repulse
+  "lQ5r"  # Duke
+  "���T"  # Dunbar
+  "���w"  # Duncan
+  "��NW�Z"  # Duncannon
+  "feIRSKQ"  # Dunkirk
+  "Ėp�"  # Eagle
+  "�W�V�R"  # Edgar
+  "1rN!X"  # Edinburgh
+  "1r�VNSZS�u�e�VS"  # Edward Bonaventure
+  "1r�VNS�NS�V"  # Edward Howard
+  "�W<h��yr"  # Egmont
+  "'Ya�"  # Elephant
+  "�W)R�N�e"  # Elias
+  "OKN���v"  # Elizabeth
+  "OKN���vTN�u�e"  # Elizabeth Jonas
+  "��)R��S"  # Ellynore
+  "�W^XKQ�e"  # Essex
+  "'kW�T"  # Europa
+  "�u�Y"  # Excellent
+  "�NAm"  # Exchange
+  "�WKQ^Xyr"  # Exeter
+  "�WKQ�e��e"  # Exmouth
+  "܏�V"  # Expedition
+  "�R��"  # Experiment
+  "�l!��e"  # Fagons
+  "9�S�lKQ�e"  # Fairfax
+  "p�"  # Falcon
+  "�yKQpQ"  # Falkland
+  "�lS��e"  # Falmouth
+  "Tg"  # Fame
+  "�lV�l�Y"  # Faversham
+  "��1r"  # Favourite
+  "T4O"  # Fellowship
+  "��Y"  # Ferme
+  "ZW�R"  # Firm
+  "VpQZS��"  # Flamborough
+  "V)RyrO�V"  # Fleetwood
+  "V��yr"  # Flight
+  "�y�Ryr"  # Flirt
+  "�yKQ�e�"  # Folkestone
+  "�eLe"  # Formidable
+  "�y^t�eyr"  # Forrester
+  "ZW�"  # Fortitude
+  "x^Џ"  # Fortune
+  "�S`"  # Foudroyant
+  "Vg��e"  # Francis
+  "�lpQ��u�R�w"  # French Ruby
+  "fg�N"  # Friday
+  "�v�R�R�vR"  # Gabriel Royal
+  "�V�Y�Shh^9�"  # Galley Subtile
+  "�RpQ�V"  # Garland
+  "TN�l"  # George
+  "�v^WN�"  # Gibraltar
+  "�^CN��"  # Gillyflower
+  "�st"  # Globe
+  "<hm�eyr"  # Gloucester
+  "ёl�"  # Golden Horse
+  "ё�r"  # Golden Lion
+  "ё�Q�Q"  # Golden Phoenix
+  "Lk)R�N"  # Goliath
+  "i`xQ"  # Goodgrace
+  "I`cw"  # Governor
+  "i`�`KN^y"  # Grace Dieu
+  "<h�b+Y�h"  # Grafton
+  "��|�"  # Grampus
+  "sYIN�N"  # Grand Mistress
+  "<hpQmt�Y"  # Grantham
+  "�T.T"  # Great Bark
+  "�T.T��<h"  # Great Bark Aiger
+  "O�U"  # Great Charity
+  "O'YOKN���v"  # Great Elizabeth
+  "'Yhh^9�"  # Great Galley
+  "O'Y<yir"  # Great Gift
+  "'Y�T)R"  # Great Harry
+  "'Y<S�S�b�e"  # Great Nicholas
+  "�T�"  # Great Pinnace
+  "'Y�el�"  # Great Zebra
+  "�T��"  # Green Dragon
+  "<h�gZ�l"  # Greenwich
+  "pps�r"  # Greyhound
+  "<h̑��"  # Griffin
+  "9h�"  # Guernsey
+  "T�R"  # Guide
+  "	TS�y�V"  # Guilford
+  "�Q�Q�N"  # Guinea
+  "JSg"  # Half Moon
+  "Ilnf�"  # Hampshire
+  "Ilnf��R"  # Hampton Court
+  "Il<S�b"  # Hannibal
+  "ΑTQ"  # Hare
+  "�T̑QhZGY"  # Harie Sandwich
+  "p���sY�Y"  # Harpy
+  "�T�uGY"  # Harwich
+  "ў�e�^�e"  # Hastings
+  "�KQ"  # Hawke
+  "�Qi�"  # Hazardous
+  "�V�"  # Heart
+  "k�KQXb"  # Hector
+  "k�S�l�h"  # Helverson
+  "�N)R�WTX�sKN�N"  # Henrietta Maria
+  "i`�`KN^y�N)R"  # Henry Grace a Dieu
+  "�N)RIlnf�"  # Henry Hampton
+  "wm<h�R�e"  # Hercules
+  "k�Oe"  # Hermione
+  "�Ė"  # Hero
+  "^=O<S�N"  # Hibernia
+  "�k�"  # Hind
+  "�<h"  # Hogue
+  "�)R<h�eyr �eiOi`"  # Holighost Spayne
+  "^g"  # Hope
+  "�nf�TKQ"  # Hope Bark
+  "^g�Qi�"  # Hopeful Adventure
+  "^txQ�NKN�R"  # House of Sweeds
+  "�N=O"  # Humber
+  "sKb"  # Hunter
+  "����uQ"  # Hussar
+  ">fk�"  # Illustrious
+  "brN�S4x"  # Impregnable
+  "�cؚ"  # Increase
+  "N�a"  # Indefatigable
+  "IRg"  # Inflexible
+  "�eOu"  # Intrepid
+  "�eLe"  # Invincible
+  "Onf�e�uGY"  # Ipswich
+  "O^�e"  # Isis
+  "���e)Rnf"  # Islip
+  "y��Y�X"  # James
+  "y��Y�Xhh^9�"  # James Galley
+  "k�S�vy��Y�e"  # James of Hull
+  "t���"  # Jennet
+  "�s�Yyrnf^t)n"  # Jennet Prywin
+  "s�y"  # Jer Falcon
+  "�l�"  # Jersey
+  "6w1z"  # Jesus
+  "T�KQ�v6w1z"  # Jesus of Lubeck
+  "�emw�u�"  # John Baptist
+  "<h�gZ�l�v�u�"  # John of Greenwich
+  "1g��"  # Juno
+  "�Qyr3thh^9�"  # Kateryn Galley
+  "�Qmt3t"  # Katherine
+  "�Qmt3t�TKQ"  # Katherine Bark
+  "�wyr"  # Kent
+  "��"  # Kingfisher
+  "ё�e�n"  # Kingston
+  "ё^XS"  # Kinsale
+  "pQV�eyr"  # Lancaster
+  "pQ�lyr"  # Langport
+  "�bnf�e"  # Lapwing
+  "�bKQ"  # Lark
+  "gBh"  # Laurel
+  ")R�R�V"  # Leander
+  "Ng"  # Lee
+  "����KQ�e"  # Lenox
+  "sy�"  # Leopard
+  "NO.T"  # Less Bark
+  "S�"  # Less Pinnace
+  "S�el�"  # Less Zebra
+  ")RGY�S�V"  # Lichfield
+  "�g�w"  # Lincoln
+  "|^�r"  # Lion's Whelp
+  "S�T�T�b"  # Little Barbara
+  "S�U"  # Little Charity
+  "Im�l"  # Lively
+  "%�4�"  # Lizard
+  "&Ofe"  # London
+  "m�u�eXbV"  # Lowestoffe
+  "�Vڋ&Ofe"  # Loyal London
+  "�R�Vm"  # Ludlow
+  "���Y"  # Lyme
+  "̑�e"  # Lys
+  "l�<h���b"  # Magdala
+  "l��R��pQ"  # Magdeline
+  "l�<h�u<S�h"  # Magnanime
+  "NSKN"  # Magnificent
+  "�h�V�e�"  # Maidstone
+  "Z%N"  # Majestic
+  "4N�e"  # Makeshift
+  "�s<hKNyr"  # Margaret
+  "�sKN Ilnf�"  # Marie Hampton
+  "�sKN �eiOi`"  # Marie Spayne
+  "N�Rʃ"  # Marigold
+  "��S=O�R"  # Marlborough
+  "l�̑f"  # Marlion
+  "l�؞jgKQ"  # Marmaduke
+  "l�̑hg"  # Marryan
+  "�sS�e"  # Mars
+  "l��e�idS"  # Marston Moor
+  "l�N"  # Martin
+  "�sKN"  # Mary
+  "�sKN�T�umt+Y"  # Mary and Joseph
+  "�sKN�T�u�"  # Mary and John
+  "�sKN�Ryr̑�Y"  # Mary Antrim
+  "�sKN0��R"  # Mary Fortune
+  "^���sKN"  # Mary Gloria
+  "�sKNi`xQ"  # Mary Grace
+  "�sKN	TS�y�V"  # Mary Guildford
+  "�sKNIl^��"  # Mary Hambrough
+  "�sKN�NS�V"  # Mary Howard
+  "�sKN^�V"  # Mary Imperial
+  "�sKNy��Y�X"  # Mary James
+  "�sKN��ZS"  # Mary Norwell
+  "�sKNeY�i`"  # Mary Odierne
+  "�sKNW�e"  # Mary Rose
+  "�sKNXbl��e"  # Mary Thomas
+  "�sKNZm�k"  # Mary Willoughby
+  "l��O"  # Matthew
+  "l��O!��h"  # Matthew Gonson
+  "�Vnfyr�y�V�v�s�V�g"  # Mawdlyn of Deptford
+  "�jg��"  # Medusa
+  "�h�VZ"  # Medway
+  "<S"  # Meeanee
+  "�hS�uS"  # Melville
+  "�XN)R"  # Mercury
+  "�h?���"  # Merhonour
+  "�h�g"  # Merlin
+  "��N|�"  # Mermaid
+  "ȏKQS"  # Michael
+  "s|S�y�V"  # Milford
+  "f�v"  # Minden
+  "�N�N"  # Minion
+  "s|<Sё"  # Minnikin
+  "ir4Y*`"  # Minotaur
+  ")n�T"  # Moderate
+  "TIN"  # Monarch
+  "��KQ"  # Monck
+  "��؞`"  # Monmouth
+  "��TX�S"  # Montagu
+  "g�N"  # Moon
+  "FzS"  # Moor
+  "��SVyr"  # Mordaunt
+  "l�S<h��+Y"  # Mulgrave
+  "��UaS"  # Namur
+  "�Q�e�k"  # Naseby
+  "�b��"  # Nassau
+  "�mnf�"  # Neptune
+  "�u�TKQ"  # New Bark
+  "�u�tKQ"  # Newark
+  "�uaS�eS"  # Newcastle
+  "Y��"  # Nightingale
+  "�eLe"  # Nonpareil
+  "�g�T"  # Nonsuch
+  "���yKQ"  # Norfolk
+  "���h=OpQ"  # Northumberland
+  "���uGY"  # Norwich
+  "��NIl"  # Nottingham
+  "wmm"  # Ocean
+  "eY�y�V"  # Orford
+  "�O̑�"  # Orion
+  "eY���V"  # Ormonde
+  "eY0t̑"  # Ossory
+  "ir%m"  # Oxford
+  "^�b�e"  # Pallas
+  "Xo�"  # Pansy
+  "ўy�"  # Panther
+  "f�I�"  # Parrot
+  "^yr̑KQ"  # Patrick
+  "�OW"  # Paul
+  "H�U�"  # Pelican
+  "mV^WKQ"  # Pembroke
+  "Xo�v<S�e"  # Pendennis
+  "��N�^"  # Perseus
+  "|V�V"  # Peter
+  "|V�V�w�i"  # Peter Pomegranate
+  "�)Rnf�T�sKN"  # Philip and Mary
+  "�vyr"  # Pitt
+  "nf)R��e"  # Plymouth
+  "�lO��S�e"  # Poictiers
+  "�lT�eid�e"  # Polyphemus
+  "�ls^pg"  # Popinjay
+  "j�*s"  # Porcupine
+  "�lyrl�*m"  # Port Mahon
+  "�lyrpQ"  # Portland
+  ":V�R"  # Powerful
+  "I`�u"  # President
+  "nf���e�"  # Preston
+  "nf̑�YW�e"  # Primrose
+  "nf̑�YW�e�O"  # Primrose Hoy
+  "�sPR"  # Prince
+  "�N�s"  # Prince Consort
+  "V���V̑KQ�sPR"  # Prince Frederick
+  "TN�l�sPR"  # Prince George
+  "eYpQ�l�N�s"  # Prince of Orange
+  "ZS�X�N�s"  # Prince of Wales
+  "�v*YPR"  # Prince Royal
+  "?��h)R�NlQIN"  # Princess Amelia
+  "aSW3tlQIN"  # Princess Caroline
+  "�f��lQIN"  # Princess Louisa
+  "�v�RlQIN"  # Princess Royal
+  "nfW�Yyr"  # Promt
+  "(�Na"  # Prudent
+  "sY�s"  # Queen
+  "YmyrsY�s"  # Queen Charlotte
+  "f�MQ"  # Quittance
+  "iVy�"  # Rainbow
+  "Tt"  # Raisonnable
+  "�bs|)R�e"  # Ramillies
+  "pQ<S�b"  # Ranelagh
+  "�u�r"  # Red Lion
+  "leOu"  # Redoubtable
+  "9ei�"  # Reformation
+  "Dd?e"  # Regent
+  "T��"  # Renown
+  "�S�Q"  # Repulse
+  "xvz"  # Research
+  "��Y"  # Reserve
+  "�b�b"  # Resistance
+  "�Q�V"  # Resolution
+  "Y��"  # Restoration
+  "Y�N"  # Revenge
+  "�v�S�vY�N"  # Revenge of Whitehall
+  "̑mV"  # Rippon
+  "WR�eyr"  # Rochester
+  "WR�yyr"  # Rochfort
+  "W�V<S"  # Rodney
+  "W�TKQ"  # Roebuck
+  "W�Y<S"  # Romney
+  "��.�"  # Roo
+  "2�Nhh^9�"  # Rose Galley
+  "Lp(g"  # Rosebush
+  "�v�R?��V���V"  # Royal Adelaide
+  "�v�R?�SV���V"  # Royal Alfred
+  "�v�R�R�Yhh^9�"  # Royal Anne Galley
+  "�v�R�gt"  # Royal Charles
+  "�v�Ry��Y�X"  # Royal James
+  "�v�R�Qmt3t"  # Royal Katherine
+  "�v�Raj(g"  # Royal Oak
+  "�v�R�S"  # Royal Sovereign
+  "�v�RZ�^"  # Royal William
+  "�u�R�w"  # Ruby
+  "bS=Oyr"  # Rupert
+  "W.t"  # Russell
+  "(�KQ��yr"  # Sacrett
+  "1WeYS,g�e"  # Saint Albans
+  "1W�R�V��"  # Saint Andrew
+  "1W'YkS"  # Saint David
+  "1WTN�l"  # Saint George
+  "1W�R&O�e"  # Saint Lawrence
+  "1Ws|��R"  # Saint Michael
+  "1W^yr̑KQ"  # Saint Patrick
+  "1W�N"  # Saint
+  "�OW"  # Paul
+  "s��"  # Saker
+  "����"  # Salamander
+  "0tSyQ=O̑"  # Salisbury
+  "Qhnf�h"  # Sampson
+  "QhZGY"  # Sandwich
+  "݄�R�w"  # Sapphire
+  "�n��"  # Satisfaction
+  "(��Vi`"  # Saturn
+  "�le"  # Saudadoes
+  "�eaS^W"  # Scarborough
+  "��^?�"  # Scipio
+  "wml�"  # Seahorse
+  "�c0t"  # Search
+  "^X	TidS"  # Sedgemoor
+  "^XS�k"  # Selby
+  "Najh"  # Seven Oaks
+  "Nf"  # Seven Stars
+  "^Xvl"  # Severn
+  "^S�Q�e"  # Sheerness
+  "�N���e=O̑"  # Shrewsbury
+  "^X�X"  # Siren
+  "�em(�<S"  # Slothany
+  "S�qPR"  # Small Swallow
+  "0tS�"  # Solebay
+  "dR�r"  # Solitaire
+  "(�؞^Xyr"  # Somerset
+  "0tSup"  # Sorlings
+  "WS�Rnffe"  # Southampton
+  "WSwm!X"  # Southsea Castle
+  "�S"  # Sovereign
+  "wmN�S"  # Sovereign of the Seas
+  "���"  # Speaker
+  "FZFZ�u"  # Speedwell
+  "�eXo^X"  # Spencer
+  "�e��KQ�e"  # Sphinx
+  "�w"  # Splendid
+  "�|up"  # Sprite
+  "Ė�"  # Stag
+  "b�e"  # Standard
+  "�^%N"  # Stately
+  "�eyrup!X"  # Stirling Castle
+  "s�"  # Stork
+  "�eyr�b�y�V"  # Strafford
+  "�eyr�b�e"  # Struss
+  "b�R"  # Success
+  "(��yKQ"  # Suffolk
+  "Qh�VpQ"  # Sunderland
+  "Qh��"  # Sunne
+  "�e�e"  # Superb
+  "(�^XKQ�e"  # Sussex
+  "(�mtpQ"  # Sutherland
+  "�qPR"  # Swallow
+  ")YE�"  # Swan
+  "L�l�"  # Sweepstake
+  "ŏwc"  # Swift
+  "Oewc"  # Swiftsure
+  "��|�"  # Tartar
+  "TX�u�eXbKQ"  # Tavistock
+  "��؞^tS"  # Temeraire
+  "�p�S"  # Terrible
+  "yr�O�e"  # Theseus
+  "Xbl��e"  # Thomas
+  "	N�s"  # Three Kings
+  "���"  # Thunderer
+  "wN�"  # Tiger
+  "��S=O̑"  # Tilbury
+  "Xb�"  # Torbay
+  "Xb�g�"  # Torrington
+  "Xb�u"  # Towey
+  "yr�b��TX�u"  # Tramontana
+  "yr����"  # Tredagh
+  "T<hWHY<h"  # Trego Ronnyger
+  "�v'Y"  # Tremendous
+  "	N�Sb"  # Trident
+  "	NMONSO"  # Trinity
+  "T<S���N)R"  # Trinity Henry
+  "	NN�v�R"  # Trinity Royal
+  "yr���"  # Triton
+  "�Q�e"  # Triumph
+  "�S`�"  # Trusty
+  "T��yr"  # Trywright
+  "�S�r"  # Two Lions
+  "�r҉�Q"  # Unicorn
+  "TwT"  # Union
+  "�uN"  # Unity
+  "��R"  # Valiant
+  "HQ�"  # Vanguard
+  "�Sle"  # Venerable
+  "�u�eTX"  # Vestal
+  "�RS"  # Veteran
+  "�w)R"  # Victory
+  "�ub"  # Vigo
+  "�N�"  # Vindictive
+  "+tWpQ"  # Violet
+  "��nm"  # Volage
+  "�R�X"  # Warrior
+  "�l�e�byr"  # Warspite
+  "�l̑KQ"  # Warwick
+  "��eyr�vyr"  # Westergate
+  "���e"  # Weymouth
+  "�v�q"  # White Bear
+  "�v&�"  # White Raven
+  ")n�V�eyr"  # Winchester
+  ")n��"  # Windsor
+  ")n���W!X"  # Windsor Castle
+  "ޘ��"  # Wivern
+  "OS�uGY"  # Woolwich
+  "O�eyr"  # Worcester
+  "Ŗ��e"  # Yarmouth
+  "�uKQ"  # York
+  "S�sPR"  # Young Prince
+  "�r�p"  # Zealous
+  "�S�kyr�t9h"  # Speedwagon
+}
+
+army_names = {
+  "^�VF��Q"  # Imperial Army
+  "�eaS��yr�Q"  # Scarlet Army
+  "�v�RF��Q"  # Royal Army
+  "v`T��Q"  # Army of the Devil
+}
+
+fleet_names = {
+  "^�Vwm�Q"  # Imperial Navy
+  "�v�Rwm�Q"  # Royal Navy
+  "݄r�-N�"  # Blue Squadron
+  "�ur�-N�"  # Red Squadron
+  "�vr�-N�"  # White Squadron
+  "�eaS��yr0��"  # Scarlet Fleet
+  "v`T�0��"  # Fleet of the Devil
+}

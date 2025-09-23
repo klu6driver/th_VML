@@ -1,0 +1,429 @@
+THE_VML_mission_branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = VML } 
+
+	THE_VML_mission_1_3 = {
+		icon = mission_unknown_mission
+		position = 3
+		required_missions = { THE_VML_mission_2_2 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_1_4 = {
+		icon = mission_unknown_mission
+		position = 4
+		required_missions = { THE_VML_mission_1_3 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_1_5 = {
+		icon = mission_unknown_mission
+		position = 5
+		required_missions = { THE_VML_mission_1_4 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_1_6 = {
+		icon = mission_unknown_mission
+		position = 6
+		required_missions = { THE_VML_mission_1_5 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_1_7 = {
+		icon = mission_unknown_mission
+		position = 7
+		required_missions = { THE_VML_mission_1_6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_1_8 = {
+		icon = mission_unknown_mission
+		position = 8
+		required_missions = { THE_VML_mission_1_7 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+THE_VML_mission_branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = VML } 
+
+	THE_VML_mission_2_2 = {
+		icon = mission_unknown_mission
+		position = 2
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_2_3 = {
+		icon = mission_unknown_mission
+		position = 3
+		required_missions = {
+			THE_VML_mission_2_2
+			THE_VML_mission_3_2
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_2_4 = {
+		icon = mission_unknown_mission
+		position = 4
+		required_missions = { THE_VML_mission_2_3 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_2_5 = {
+		icon = mission_unknown_mission
+		position = 5
+		required_missions = { THE_VML_mission_2_4 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_2_6 = {
+		icon = mission_unknown_mission
+		position = 6
+		required_missions = { THE_VML_mission_2_5 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_2_7 = {
+		icon = mission_unknown_mission
+		position = 7
+		required_missions = { THE_VML_mission_2_6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_2_9 = {
+		icon = mission_unknown_mission
+		position = 9
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+THE_VML_mission_branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = VML } 
+
+	THE_VML_mission_3_1 = {
+		icon = mission_unknown_mission
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_3_2 = {
+		icon = mission_unknown_mission
+		position = 2
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_3_3 = {
+		icon = mission_unknown_mission
+		position = 3
+		required_missions = { THE_VML_mission_3_2 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_3_4 = {
+		icon = mission_unknown_mission
+		position = 4
+		required_missions = { THE_VML_mission_3_3 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_3_5 = {
+		icon = mission_unknown_mission
+		position = 5
+		required_missions = { THE_VML_mission_3_4 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_3_6 = {
+		icon = mission_unknown_mission
+		position = 6
+		required_missions = { THE_VML_mission_3_5 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_3_7 = {
+		icon = mission_unknown_mission
+		position = 7
+		required_missions = { THE_VML_mission_3_6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_3_8 = {
+		icon = mission_unknown_mission
+		position = 8
+		required_missions = { THE_VML_mission_3_7 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_3_9 = {
+		icon = mission_unknown_mission
+		position = 9
+		required_missions = { THE_VML_mission_3_8 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_3_10 = {
+		icon = mission_unknown_mission
+		position = 10
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+THE_VML_mission_branch_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = VML } 
+
+	THE_VML_mission_4_3 = {
+		icon = mission_unknown_mission
+		position = 3
+		required_missions = {
+			THE_VML_mission_3_2
+			THE_VML_mission_5_2
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_4_4 = {
+		icon = mission_unknown_mission
+		position = 4
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_4_5 = {
+		icon = mission_unknown_mission
+		position = 5
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_4_7 = {
+		icon = mission_unknown_mission
+		position = 7
+		required_missions = { THE_VML_mission_5_6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_4_8 = {
+		icon = mission_unknown_mission
+		position = 8
+		required_missions = { THE_VML_mission_4_7 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+THE_VML_mission_branch_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = VML } 
+
+	THE_VML_mission_5_2 = {
+		icon = mission_unknown_mission
+		position = 2
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_5_3 = {
+		icon = mission_unknown_mission
+		position = 3
+		required_missions = { THE_VML_mission_5_2 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_5_4 = {
+		icon = mission_unknown_mission
+		position = 4
+		required_missions = { THE_VML_mission_5_3 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_5_5 = {
+		icon = mission_unknown_mission
+		position = 5
+		required_missions = { THE_VML_mission_5_4 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_5_6 = {
+		icon = mission_unknown_mission
+		position = 6
+		required_missions = { THE_VML_mission_5_5 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_5_7 = {
+		icon = mission_unknown_mission
+		position = 7
+		required_missions = { THE_VML_mission_5_6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_5_8 = {
+		icon = mission_unknown_mission
+		position = 8
+		required_missions = { THE_VML_mission_5_7 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	THE_VML_mission_5_9 = {
+		icon = mission_unknown_mission
+		position = 9
+		required_missions = { THE_VML_mission_5_8 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}

@@ -1,0 +1,38 @@
+country_decisions = {
+	VML_form_decisions_O = {
+potential ={
+	tag = SCR
+}
+allow ={
+		stability = 1
+		ai = no
+}
+effect ={
+	change_tag = VML
+	on_change_tag_effect = yes
+	country_event = { id = ideagroups.1 }
+	swap_non_generic_missions = yes
+}
+	}
+	the_yof_change_religions_to_kagiyama_02 = {
+		color = {
+			13
+			173
+			80
+		}
+		potential = {
+			NOT = {
+				religion = THE_kagiyama_religion
+			}
+		}
+		allow = {
+			treasury = 50
+		}
+		effect = {
+			change_religion = THE_minoriko_religion
+			}
+			THE_unlock_special_culture_ideas_scripted_effect = {
+				type = kami
+			}
+		}
+	}
