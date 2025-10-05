@@ -163,7 +163,7 @@ THE_VML_mission_branch_3 = {
 	has_country_shield = yes
 	potential = { tag = VML } 
 
-	THE_VML_mission_3_1 = {
+	THE_VML_mission_3_1 = {#上如同下
 		icon = mission_unknown_mission
 		position = 1
 		provinces_to_highlight = {  } 
@@ -173,17 +173,21 @@ THE_VML_mission_branch_3 = {
 		effect = {  } 
 	}
 
-	THE_VML_mission_3_2 = {
+	THE_VML_mission_3_2 = {#清点
 		icon = mission_unknown_mission
 		position = 2
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			stability = 1
+			5072= {infantry_in_province = 15}
+			
+		 } 
 
 		effect = {  } 
 	}
 
-	THE_VML_mission_3_3 = {
+	THE_VML_mission_3_3 = {#智慧
 		icon = mission_unknown_mission
 		position = 3
 		required_missions = { THE_VML_mission_3_2 } 

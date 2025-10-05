@@ -1,0 +1,48 @@
+namespace = THE_VML_religion_events
+country_event ={
+    id = THE_VML_religion_pro.1
+    title = "THE_VML_religion_pro.1.tt"
+    desc = "THE_VML_religion_pro.1.desc"
+    picture = BANKRUPTCY_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = "THE_VML_religion_pro.1.option1"
+        add_adm_power = 10
+        change_variable ={
+            which =vml_black_powder
+            value = 50
+        }
+        if ={
+            limit={
+                has_church_aspect = THE_VML_black_powder_mil_aspect
+                NOT = { mil_tech = 7 }
+            }
+            capital_scope = {
+                large_cast_bronze_mortar = ROOT
+                large_cast_bronze_mortar = ROOT
+            }
+        }
+        else_if = {
+            limit={
+                has_church_aspect = THE_VML_black_powder_mil_aspect
+                mil_tech = 7
+            }
+            capital_scope = {
+                artillery = ROOT
+                artillery = ROOT
+                artillery = ROOT
+            }
+        }
+    }
+}
+country_event = {
+    id = THE_VML_religion_pro_use.1
+    title = "THE_VML_religion_pro_use.1.tt"
+    desc = "THE_VML_religion_pro_use.1.desc"
+    picture = BANKRUPTCY_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = "THE_VML_religion_pro_use.1.option1"
+        add_adm_power = 10
+    }
+}

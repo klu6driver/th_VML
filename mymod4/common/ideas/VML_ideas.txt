@@ -14,26 +14,25 @@ VML_ideas = {
     free = yes
 
     VML_ideas_1 = {
-        core_creation = -0.1
+        core_creation = -0.05
         province_warscore_cost = -0.05
     }
 
     VML_ideas_2 = {
-        land_morale = 0.1
+        idea_cost= -0.1
     }
 
     VML_ideas_3 = {
         governing_cost = -0.05
-        governing_capacity_modifier = 0.15
     }
 
     VML_ideas_4 = {
         discipline = 0.05
-        shock_damage_received = -0.05
+        shock_damage_received = -0.15
     }
 
     VML_ideas_5 = {
-        tolerance_own = 1
+        tolerance_own = 2
     }
 
     VML_ideas_6 = {

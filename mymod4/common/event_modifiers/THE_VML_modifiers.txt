@@ -1,0 +1,19 @@
+THE_VML_expanding_infrastructure_magic_workshop_modifier_1={#省份修正炼金工坊 共三级
+    trade_goods_size = 0.1
+    church_power_modifier = 0.01
+    local_missionary_strength = 0.05
+}
+THE_VML_expanding_infrastructure_magic_workshop_modifier_2={
+    trade_goods_size = 0.3
+    church_power_modifier = 0.03
+    local_missionary_strength = 0.1
+}
+THE_VML_expanding_infrastructure_magic_workshop_modifier_3={
+    trade_goods_size = 1
+    church_power_modifier = 0.1
+    local_missionary_strength = 0.15
+}
+THE_VML_library_engineering_modifier={#省份修正图书馆建设中
+    build_cost = 1
+    build_time = 1
+}

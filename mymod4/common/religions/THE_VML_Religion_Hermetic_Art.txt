@@ -1,0 +1,57 @@
+Touhou = {
+    THE_VML_Hermetic_Art = {#THE_VML_hermetic_art
+        color = {192 32 192}
+        heretic = { th_heretic_lunar th_heretic_anime th_heretic_manga_elitists }
+        icon = 40
+        country={
+            tolerance_heretic = 2
+            production_efficiency = 0.05
+        }
+        province = {
+        }
+        country_as_secondary = {
+            tolerance_heretic = 1
+            production_efficiency = 0.05
+        }
+        misguided_heretic = yes
+        uses_judaism_power = yes
+        aspects_name = THE_VML_Hermetic_Art_aspects
+        aspects = {
+            THE_VML_black_powder_adm_aspect
+            THE_VML_Cu_adm_aspect
+            THE_VML_Fe_adm_aspect
+            THE_VML_Hcl_adm_aspect
+            THE_VML_HNO3_adm_aspect
+            THE_VML_H2SO4_adm_aspect
+            THE_VML_Na2CO3_adm_aspect
+            THE_VML_NaOH_adm_aspect
+            THE_VML_H2_adm_aspect
+            THE_VML_cl2_adm_aspect
+            THE_VML_NH3_adm_aspect
+            THE_VML_oil_adm_aspect
+            THE_VML_ice_adm_aspect
+            THE_VML_antibiotics_adm_aspect
+            THE_VML_enriched_uranium_adm_aspect
+            THE_VML_enzyme_adm_aspect
+            THE_VML_Si_adm_aspect
+            THE_VML_black_powder_mil_aspect
+            celebrate = {
+                cost = 200
+                potential = {}
+                allow = {}
+                effect ={
+                    THE_VML_cast_spell = yes
+                    trigger_switch = {
+                        on_trigger = has_church_aspect
+                        THE_VML_black_powder_adm_aspect ={country_event = { id = THE_VML_religion_pro.1 }}
+                        THE_VML_enriched_uranium_adm_aspect={country_event = {id = THE_VML_religion_pro.1}}
+                    }
+
+                }
+
+
+                ai_will_do = { factor = 100 }
+
+            }
+        }
+    }

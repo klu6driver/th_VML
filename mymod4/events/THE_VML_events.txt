@@ -1,0 +1,11 @@
+namespace = THE_VML_events
+country_event ={
+    id= THE_VML_events_flavor.1
+    title = "THE_VML_events_flavor.1.tt"
+    desc = "THE_VML_events_flavor.1.desc"
+    picture = BANKRUPTCY_eventPicture
+    is_triggered_only = yes
+    option = {
+        add_adm_power = 10
+    }
+}

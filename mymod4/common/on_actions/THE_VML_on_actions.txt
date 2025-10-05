@@ -1,0 +1,103 @@
+on_expanded_infrastructure = {
+    if = {
+        limit ={
+            FROM = {
+                has_country_flag = THE_VML_expanding_infrastructure_magic_workshop_flag
+            }
+            root = {
+                has_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_2
+            }
+        }
+        root = {
+            remove_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_2
+            add_province_modifier = {
+                name = THE_VML_expanding_infrastructure_magic_workshop_modifier_3
+                duration = -1
+            }
+        }
+    }
+    else_if ={
+        limit ={
+            FROM = {
+                has_country_flag = THE_VML_expanding_infrastructure_magic_workshop_flag
+            }
+            root = {
+                has_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_1
+            }
+        }
+        root = {
+            remove_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_1
+            add_province_modifier = {
+                name = THE_VML_expanding_infrastructure_magic_workshop_modifier_2
+                duration = -1
+            }
+        }
+    }
+    else_if ={
+        limit = {
+            FROM = {
+                has_country_flag = THE_VML_expanding_infrastructure_magic_workshop_flag
+            }
+            root = {
+                not = { has_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_1 }
+                not = { has_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_2 }
+                not = { has_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_3 }
+            }
+        }
+        root = {
+            add_province_modifier = {
+                name = THE_VML_expanding_infrastructure_magic_workshop_modifier_1
+                duration = -1
+            }
+        }
+    }
+}
+on_expanded_infrastructure_removed = {
+    if ={
+        limit ={
+            FROM = {
+                has_country_flag = THE_VML_expanding_infrastructure_magic_workshop_flag
+            }
+            root = {
+                has_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_1
+            }
+        }
+        root = {
+            remove_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_1
+        }
+    }
+    else_if ={
+        limit ={
+            FROM = {
+                has_country_flag = THE_VML_expanding_infrastructure_magic_workshop_flag
+            }
+            root = {
+                has_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_2
+            }
+        }
+        root = {
+            remove_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_2
+            add_province_modifier = {
+                name = THE_VML_expanding_infrastructure_magic_workshop_modifier_1
+                duration = -1
+            }
+        }
+    }
+    else_if ={
+        limit ={
+            FROM = {
+                has_country_flag = THE_VML_expanding_infrastructure_magic_workshop_flag
+            }
+            root = {
+                has_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_3
+            }
+        }
+        root = {
+            remove_province_modifier = THE_VML_expanding_infrastructure_magic_workshop_modifier_3
+            add_province_modifier = {
+                name = THE_VML_expanding_infrastructure_magic_workshop_modifier_2
+                duration = -1
+            }
+        }
+    }
+}

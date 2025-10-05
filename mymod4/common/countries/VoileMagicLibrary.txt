@@ -1,6 +1,6 @@
 graphical_culture = westerngfx
 		
-color = { 160  60  160 }
+color = {  110 0 140 }
 revolutionary_colors = { 4  0  4 }
 
 random_nation_chance = 0
@@ -38,7 +38,7 @@ monarch_names = {
   "�`<S #0" = 0  # Sydney #0
   "(�*S #0" = 0  # Samuel #0
   "eY)RV #0" = 0  # Oliver #0
-  "<Sk�ȏ�N #0" = 0  # Nehemiah #0
+  "<Sk�ȝ�N #0" = 0  # Nehemiah #0
   "l��O #0" = 0  # Matthew #0
   "�R&O�e #0" = 0  # Lawrence #0
   "�umt+Y #0" = 0  # Joseph #0
@@ -349,7 +349,7 @@ ship_names = {
   "�NAm"  # Exchange
   "�WKQ^Xyr"  # Exeter
   "�WKQ�e��e"  # Exmouth
-  "܏�V"  # Expedition
+  "ܝ�V"  # Expedition
   "�R��"  # Experiment
   "�l!��e"  # Fagons
   "9�S�lKQ�e"  # Fairfax
@@ -370,7 +370,7 @@ ship_names = {
   "�eLe"  # Formidable
   "�y^t�eyr"  # Forrester
   "ZW�"  # Fortitude
-  "x^Џ"  # Fortune
+  "x^Н"  # Fortune
   "�S`"  # Foudroyant
   "Vg��e"  # Francis
   "�lpQ��u�R�w"  # French Ruby
@@ -543,7 +543,7 @@ ship_names = {
   "�h?���"  # Merhonour
   "�h�g"  # Merlin
   "��N|�"  # Mermaid
-  "ȏKQS"  # Michael
+  "ȝKQS"  # Michael
   "s|S�y�V"  # Milford
   "f�v"  # Minden
   "�N�N"  # Minion
@@ -722,7 +722,7 @@ ship_names = {
   "�qPR"  # Swallow
   ")YE�"  # Swan
   "L�l�"  # Sweepstake
-  "ŏwc"  # Swift
+  "ŝwc"  # Swift
   "Oewc"  # Swiftsure
   "��|�"  # Tartar
   "TX�u�eXbKQ"  # Tavistock

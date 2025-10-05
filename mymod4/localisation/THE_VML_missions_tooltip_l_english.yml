@@ -1,0 +1,67 @@
+﻿l_english:
+ VML: "ôTætœþVfN†™"
+ VML_ADJ: "ôTætœþVfN†™"
+#ideas
+ VML_ideas: "ôTætœþVfN†™tõV"
+ VML_ideas_start: "ôTætœþVfN†™.Oßu"
+ VML_ideas_bonus: "ôTætœþVfN†™Î‘ÃV"
+ VML_ideas_1: "¢uT›Î‘g"
+ VML_ideas_1_desc: "…VkX"
+ VML_ideas_2: "'YþVfN†™"
+ VML_ideas_2_desc: "…VkX"
+ VML_ideas_3: "T›sYÓu>y"
+ VML_ideas_3_desc: "…VkX"
+ VML_ideas_4: "Õl^°e›Q"
+ VML_ideas_4_desc: "…VkX"
+ VML_ideas_5: "YeINî•Tr"
+ VML_ideas_5_desc: "…VkX"
+ VML_ideas_6: "ôc©Rú^¾‹"
+ VML_ideas_6_desc: "Sbpp²TY"
+ VML_ideas_7: "*Y3–,g®N,ff"
+ VML_ideas_7_desc: "R.I.P."
+#modifier
+ THE_VML_expanding_infrastructure_magic_workshop_modifier_1: "¼pÑ‘åTJW01µu0"
+ THE_VML_expanding_infrastructure_magic_workshop_modifier_2: "¼pÑ‘åTJW02µu0"
+ THE_VML_expanding_infrastructure_magic_workshop_modifier_3: "¼pÑ‘åTJW03µu0"
+#church_aspects
+ THE_VML_black_powder_adm_aspect: "Ñžkpoƒ"
+ desc_THE_VML_black_powder_adm_aspect: "ÑžkpoƒgR(W-NNS«ˆÑSfÿv^ÇNøuKNïåNÊS™„äS‰VIr¹eV.OeQ-NNŒT'k2m0ƒR„vPg™e¹RfÆ–PŸv^ˆVÉ^÷NÿsSO(WASkNNªuúQ°s†NôfT„vr¸pirÿFOÍN6q‰öeô•MbýwãNÿfÑžkpoƒ(W”^(uN„vßu»l'`0WMO0"
+ THE_VML_Cu_adm_aspect: "Ü”"
+ desc_THE_VML_Cu_adm_aspect: ""
+ THE_VML_Fe_adm_aspect: "Á”"
+ THE_VML_Hcl_adm_aspect: "Ðvj•4l"
+ THE_VML_HNO3_adm_aspect: "kxj•4l"
+ THE_VML_H2SO4_adm_aspect: "ÿuþw¹l"
+ THE_VML_Na2CO3_adm_aspect: "¯u±x"
+ THE_VML_NaOH_adm_aspect: "çp±x"
+ THE_VML_H2_adm_aspect: "‰l"
+ THE_VML_cl2_adm_aspect: "Äžÿu|pl"
+ THE_VML_NH3_adm_aspect: "(ll"
+ THE_VML_oil_adm_aspect: "ów¹l¼p6R"
+ THE_VML_ice_adm_aspect: "É‰’‘BR"
+ THE_VML_antibiotics_adm_aspect: "Nupoƒ"
+ THE_VML_enriched_uranium_adm_aspect: "Sm)À”"
+ THE_VML_enzyme_adm_aspect: "u‘.t"
+ THE_VML_Si_adm_aspect: "…¯uEx"
+ THE_VML_black_powder_mil_aspect: "kpªg"
+
+#about_religion
+ THE_VML_cast_spell_tt: "ŒRbåT^"
+ THE_VML_Hermetic_Art_aspects_LONG: "µNir"
+ THE_VML_Hermetic_Art_aspects_SHORT: "µNir"
+ THE_VML_Hermetic_Art: "¼påwÓu>y"
+ THE_VML_Hermetic_Art_religion_desc: "¼påwÓu>y=fAmLˆŽNxvz¼pÑ‘=g„vN›NT›ÕlO-N„vNÍy°etQáOðN0ƒR„váO’VøváOÿZSKN^yR.†N‰^ó`aN(W…Q„vNô•Nirÿ‰^ó`aN„v	gupOuÿSìbO^y(W…Qÿý=fZSKN^y„viRPR0àeº‹=fYLu„vê6qÕlRÿØ=f‰^ó`aN„v&raSÿvQÌwTýuªVNwNÍy^yØy„v0ïSåN«ˆtã‰„véy^ÿmN1S=fZSKN^y„va×V0\náO’VìNøváOxvzê6qòTfRïSåNÑS°sŒT.O­dgúW,g„vwt0ÖNìNIN.V(ut'`0ÑyfRŒTžRÁ‹egã‰Ê‘NLuÿáOðN=ft'`„vö^8OÿwN=fNKNùRËz0Çíc:y‡R™R„véy^ÿÖNìNïSåNÁ‹f^yf„vO'Y0"
+
+
+#events
+ THE_VML_religion_pro.1.tt: "‹NöNh˜˜"
+ THE_VML_religion_pro.1.desc: "‹NöNÏcð"
+ THE_VML_religion_pro.1.option1: "	y˜1"
+ THE_VML_religion_pro_use.tt: "µNÁTO(u"
+ THE_VML_religion_pro_use.desc: "µNÁTO(uÏcð"
+ THE_VML_religion_pro_use.option1: "µNÁTO(u	y˜"
+#decisions
+ VML_TEST_decisions_2_title: "O(uµNÁT" 
+ VML_TEST_decisions_2_desc: "µNÁT|pe˜\nÑžkpoƒ:[root.vml_black_powder.GetValue]"
+ VML_TEST_decisions_2_c_tt1: "µNÁT|pe˜\nÑžkpoƒ:[root.vml_black_powder.GetValue]"
+ vml_black_powder: "ÑžkpoƒXRÏ‘"

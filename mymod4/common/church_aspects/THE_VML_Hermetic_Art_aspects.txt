@@ -1,0 +1,253 @@
+THE_VML_black_powder_adm_aspect ={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_Cu_adm_aspect={
+     cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_Fe_adm_aspect={
+     cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_Hcl_adm_aspect={
+     cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_HNO3_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_H2SO4_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_Na2CO3_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_NaOH_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_H2_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_cl2_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_NH3_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_oil_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_ice_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_antibiotics_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_enriched_uranium_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_enzyme_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_Si_adm_aspect={
+    cost = 200
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        prestige = 1
+    }
+    monarch_power = adm
+    ai_will_do = { factor = 15 }
+}
+THE_VML_black_powder_mil_aspect ={
+    cost = 50
+
+    potential = {
+        has_country_flag = THE_VML_unlock_black_powder_flag
+    }
+    trigger = {}
+    effect = {
+    }
+    modifier = {
+        infantry_fire = 0.1
+    }
+    monarch_power = mil
+    ai_will_do = { factor = 15 }
+}

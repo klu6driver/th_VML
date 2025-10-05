@@ -1,38 +1,47 @@
 country_decisions = {
-	VML_form_decisions_O = {
-potential ={
-	tag = SCR
+    VML_form_decisions_O = {
+        potential ={
+            tag = SCR
+            not ={is_year = 1445}
+        }
+        allow ={
+            ai = no
+            not ={is_year = 1445}
+        }
+        effect ={
+            change_tag = VML
+            on_change_tag_effect = yes
+            country_event = { id = ideagroups.1 }
+            5072 = {move_capital_effect = yes}
+            swap_non_generic_missions = yes
+        }
+    }
+
+    VML_TEST_decisions_1 = {
+        potential ={
+            tag = VML
+        }
+        allow ={
+            ai = no
+        }
+        effect ={
+            change_religion =THE_VML_Hermetic_Art
+            set_country_flag = THE_VML_unlock_black_powder_flag
+            THE_VML_set_variable_scripted_effects =yes
+        }
+    }
+
+    VML_TEST_decisions_2 = {
+        potential ={
+            tag = VML
+        }
+        color = { 5 230 220 }
+        allow ={
+            ai = no
+        }
+        effect ={
+            country_event = { id = THE_VML_religion_pro_use.1}
+            custom_tooltip = VML_TEST_decisions_2_c_tt1
+        }
+    }
 }
-allow ={
-		stability = 1
-		ai = no
-}
-effect ={
-	change_tag = VML
-	on_change_tag_effect = yes
-	country_event = { id = ideagroups.1 }
-	swap_non_generic_missions = yes
-}
-	}
-	the_yof_change_religions_to_kagiyama_02 = {
-		color = {
-			13
-			173
-			80
-		}
-		potential = {
-			NOT = {
-				religion = THE_kagiyama_religion
-			}
-		}
-		allow = {
-			treasury = 50
-		}
-		effect = {
-			change_religion = THE_minoriko_religion
-			}
-			THE_unlock_special_culture_ideas_scripted_effect = {
-				type = kami
-			}
-		}
-	}

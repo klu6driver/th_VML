@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_th_blue_rune_111"
+        texturefile = "gfx/interface/aspects/GFX_th_blue_rune_111.dds"
+        legacy_lazy_load = no
+    }
+}
